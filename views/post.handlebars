@@ -1,0 +1,22 @@
+<div class="text-center">
+  {{> post-details }}
+
+  <div class="card">
+   <h3 class="card-header text-uppercase">
+      <br>
+   </h3>
+    
+    <div class="card-body">
+      <form class="comment-form">
+        <label>Leave a comment</label>
+        <textarea id="comment-description"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary" data-id="{{id}}">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- This is the form for adding a new comment -->
+<script src="./js/post.js"></script>
+
