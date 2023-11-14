@@ -14,13 +14,13 @@ I learn:
 ## Installation
 
 Repository URL: https://github.com/solangeindaco/mvc-tech-blog      
-Application URL: https://git.heroku.com/mvc-express-tech-blog.git
+Application URL: https://mvc-exp-tech-blog-08d7621a6b4c.herokuapp.com/
 
 ## Usage
 
 The following video shows the web application's appearance and functionality:
 
-[MVC Tech Bloh video]()      
+[MVC Tech Bloh video](https://drive.google.com/file/d/1OIizY7I74guu7q4Z_B0VPaJaumXwSnQp/view)      
 
 ## Credits
 
