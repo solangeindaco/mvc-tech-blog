@@ -1,22 +1,22 @@
 <div class="card">
    <h3 class="card-header"> Edit Post </h3>
    <div class="card-body">
-        <form class="form update-post-form">
+        <form class="form update-post-form"  data-id="{{id}}">
             <div class="form-group">
-                <label for="project-name">Post title:</label>
-                <textarea class="form-input" type="text" id="post-title" name="post-title">{{title}}</textarea>
+                <label>Post title:</label>
+                <textarea class="form-input" type="text" id="post-title" name="post-title">{{title}} </textarea>
             </div>
             <div class="form-group">
-                <label for="project-desc">content:</label>
+                <label>content:</label>
                 <textarea class="form-input" id="post-content" name="post-content"> {{content}} </textarea>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary" data-id="{{id}}">Update</button>
+                <button type="submit" class="btn btn-primary">Update</button>
             </div>
         </form>
     </div>
 </div>
 
-<script src="../public/js/edit-post.js"></script>
+<script src="/js/edit-post.js"></script>
 
  

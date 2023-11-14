@@ -1,6 +1,7 @@
 const newCommentFormHandler = async (event) => {
     event.preventDefault();
     const postId = event.target.getAttribute("data-id");
+    const user_id = event.target.getAttribute("data-user");
     const description = document.querySelector("#description").value;
     
     // Send fetch request to add a new dish
@@ -25,6 +26,6 @@ const newCommentFormHandler = async (event) => {
       alert('Failed to add comment');
     }
 };
-console.log("QUERY SELECTOR");
+
 console.log(document.querySelector(".comment-form"));
 document.querySelector(".comment-form").addEventListener("submit", newCommentFormHandler);

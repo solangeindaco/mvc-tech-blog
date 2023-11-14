@@ -54,13 +54,16 @@ router.get('/updatepost/:id', async (req, res) => {
     const postData = await Post.findByPk(req.params.id, {
       include: [
         {
-          model: User,
-          attributes: ['name'],
+          model: User
         },
       ],
     });
 
+    console.log(postData);
+
     const post = postData.get({ plain: true });
+
+    console.log(post);
 
     res.render('updatepost', {
       ...post,
