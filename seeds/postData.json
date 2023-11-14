@@ -5,9 +5,10 @@
   },
   {
     "title": "Authentication vs Authorization",
-    "content": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system."},
+    "content": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system."
+  },
   {
     "title": "Object-Realtional Mapping",
-    "content": "I have long been a fan of object-relational mapping (ORM) tools. I have used Hibernate in Java, Entity Framework in .NET, and Sequelize in Node.js. I have also used raw SQL queries in all of these environments. I have found that the best approach is to use both ORM and raw SQL queries. ORM tools are great for simple queries, but they are not always the best choice for complex queries."
+    "content": "I have long been a fan of object-relational mapping (ORM) tools. I have used Hibernate in Java, Entity Framework in .NET, and Sequelize in Node.js."
   }
 ]
