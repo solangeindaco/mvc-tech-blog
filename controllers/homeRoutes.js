@@ -59,8 +59,6 @@ router.get('/updatepost/:id', async (req, res) => {
       ],
     });
 
-    console.log(postData);
-
     const post = postData.get({ plain: true });
 
     console.log(post);
