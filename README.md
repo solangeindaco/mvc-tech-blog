@@ -4,10 +4,12 @@
 
 ## Description
 
-I create this application from scratch to learn about Express.js. . I deployed this app on Heroku.
+I create this application from scratch to review the MVC design pattern. I deployed this app on Heroku.
 I learn:  
-    - how to.  
-    - how to.                       
+    - how to use express-handlebars package to use Handlebars.js for your Views.  
+    - how to use bcrypt package to hash passwords. 
+    - how to use dotenv package to use environment variables.
+    - how to use express session and connect-session-sequelize packages to add authentication.                      
 
 ## Installation
 
@@ -25,8 +27,10 @@ The following video shows the web application's appearance and functionality:
 To create this application, I used the following tutorials:  
     - Express: https://expressjs.com/       
     - Modular Routing: https://expressjs.com/en/guide/routing.html#express-router        
-    - Serve static files in express: https://expressjs.com/en/starter/static-files.html    
-    - UUID: fkfkfk https://www.npmjs.com/package/uuid       
+    - Express handlebars: https://www.npmjs.com/package/express-handlebars   
+    - dotenv: https://www.npmjs.com/package/dotenv  
+    - bcrypt: https://www.npmjs.com/package/bcrypt  
+    - connect-session-sequelize: https://www.npmjs.com/package/connect-session-sequelize   
     - Heroku: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true                                                  
 
 ## License
