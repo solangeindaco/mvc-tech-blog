@@ -9,7 +9,8 @@ I learn:
     - how to use express-handlebars package to use Handlebars.js for your Views.  
     - how to use bcrypt package to hash passwords. 
     - how to use dotenv package to use environment variables.
-    - how to use express session and connect-session-sequelize packages to add authentication.                      
+    - how to use express session and connect-session-sequelize packages to add authentication   
+    - how to deploy to Heroku with a SQL database.                      
 
 ## Installation
 
@@ -31,7 +32,8 @@ To create this application, I used the following tutorials:
     - dotenv: https://www.npmjs.com/package/dotenv  
     - bcrypt: https://www.npmjs.com/package/bcrypt  
     - connect-session-sequelize: https://www.npmjs.com/package/connect-session-sequelize   
-    - Heroku: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true                                                  
+    - Heroku: https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true 
+    - Deploy to Heroku with a SQL database: https://coding-boot-camp.github.io/full-stack/heroku/deploy-with-heroku-and-mysql                                                       
 
 ## License
 
