@@ -6,11 +6,11 @@
 
 I create this application from scratch to review the MVC design pattern. I deployed this app on Heroku.
 I learn:  
-    - how to use express-handlebars package to use Handlebars.js for your Views.  
-    - how to use bcrypt package to hash passwords. 
-    - how to use dotenv package to use environment variables.
-    - how to use express session and connect-session-sequelize packages to add authentication.       
-    - how to deploy to Heroku with a SQL database.                         
+    - how to use express-handlebars package to use Handlebars.js for your Views.      
+    - how to use bcrypt package to hash passwords.    
+    - how to use dotenv package to use environment variables.    
+    - how to use express session and connect-session-sequelize packages to add authentication.          
+    - how to deploy to Heroku with a SQL database.                             
 
 ## Installation
 
@@ -21,7 +21,7 @@ Application URL: https://mvc-exp-tech-blog-08d7621a6b4c.herokuapp.com/
 
 The following video shows the web application's appearance and functionality:
 
-[MVC Tech Bloh video](https://drive.google.com/file/d/1AAwLd315qf5n8fENyi7-KQFEpZNwKKUn/view)      
+[MVC Tech Bloh video](https://drive.google.com/file/d/1DHZi52j289_CmxeIdmuPE9r78oLjQITe/view)      
 
 ## Credits
 
