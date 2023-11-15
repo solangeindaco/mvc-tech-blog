@@ -4,8 +4,7 @@ const newCommentFormHandler = async (event) => {
     const description = document.querySelector("#description").value;
     
     // Send fetch request to add a new dish
-    console.log(postId);
-    console.log(description);
+
     const response = await fetch(`/api/comments`, {
       method: 'POST',
       body: JSON.stringify({
@@ -18,7 +17,7 @@ const newCommentFormHandler = async (event) => {
     });
     //if the comment is added,
     if (response.ok) {
-      document.location.replace('/');
+      document.location.replace(`/post/${postId}`);
     } else {
       alert('Failed to add comment');
     }

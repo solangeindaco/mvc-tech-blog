@@ -1,6 +1,14 @@
 <div class="text-center">
   {{> post-details }}
 
+  {{#if comments.length}}
+    <h3>Comments:</h3>
+
+    {{#each comments as |comment|}}
+      {{> comment-details}}
+    {{/each}}
+  {{/if}}
+
   <div class="card">
    <h3 class="card-header text-uppercase">
       <br>
