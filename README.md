@@ -21,7 +21,7 @@ Application URL: https://mvc-exp-tech-blog-08d7621a6b4c.herokuapp.com/
 
 The following video shows the web application's appearance and functionality:
 
-[MVC Tech Bloh video](https://drive.google.com/file/d/1CLRSYy8g64hF89xCkLd6ofW84G7r7xju/view)      
+[MVC Tech Bloh video](https://drive.google.com/file/d/1AAwLd315qf5n8fENyi7-KQFEpZNwKKUn/view)      
 
 ## Credits
 
