@@ -1,10 +1,6 @@
 <div class="card">
    <h3 class="card-header">
-    {{#if logged_in}}
       <a href="/post/{{id}}">{{title}}</a> 
-    {{else}}
-      <a href="/login">{{title}}  {{logged_in}}</a> 
-    {{/if}}
       <p>Post by {{user.name}} on {{format_date date_created}}</p>
    </h3>
    
